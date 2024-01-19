@@ -2,6 +2,7 @@ import { navLinks } from "../constants"
 import  dpsLogo  from '../assets/images/dpsLogo.png'
 import { useState } from "react"
 import { FaBars, FaXmark } from "react-icons/fa6";
+import { Link } from "react-scroll";
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -9,10 +10,10 @@ const Nav = () => {
 setIsMenuOpen(!isMenuOpen);
   }
   const navItems = [
-    {link: "Overview", path: "#home"},
-    {link: "Feature", path: "#feature"},
-    {link: "About", path: "#about"},
-    {link: "Pricing", path: "#pricing"},
+    {link: "Home", path: "home"},
+    {link: "Services", path: "services"},
+    {link: "About", path: "about"},
+    {link: "Contact Us", path: "contact"},
   ]
   return (
     <>
@@ -28,14 +29,12 @@ setIsMenuOpen(!isMenuOpen);
 
     <ul className="md:flex space-x-12 hidden">
       {
-        navItems.map(({link, path})=> <a key={link} href={path} className="block hover:text-gray-300">{link}</a>)
+        navItems.map(({link, path})=> <Link activeClass="active" key={link} spy={true} smooth={true} offset={-100} to={path} className="block hover:text-gray-300 cursor-pointer">{link}</Link>)
       }
     </ul>
   </div>
   <div className="md:flex items-center hidden">
-  <a href="#">
-    <button className="bg-secondary py-2 px-4 transition-all duration-300 rounded hover:text-white hover:bg-indigo-600"> Book An Appointment</button>
-  </a>
+  
   </div>
 
   <div className="md:hidden">
@@ -51,7 +50,7 @@ setIsMenuOpen(!isMenuOpen);
 
     <div className={`space-y-4 px-4 pt-24 pb-5 bg-secondary text-xl ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
     {
-        navItems.map(({link, path})=> <a key={link} href={path} className="block hover:text-gray-300">{link}</a>)
+        navItems.map(({link, path})=> <Link activeClass="active" key={link} spy={true} smooth={true} offset={-80} to={path} className="block text-white hover:text-gray-300"onClick={toggleMenu}> {link}</Link>)
       }
     </div>
     </>
