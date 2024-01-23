@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/digify/static/css/main.be7fadbd.css",
+    "main.js": "/digify/static/js/main.52b0c7d1.js",
+    "static/media/ui_ux_design.svg": "/digify/static/media/ui_ux_design.6ed300b1d73621a6bb4f38735d808250.svg",
+    "static/media/vision.svg": "/digify/static/media/vision.42f5340384e18e21cbe835ef7365a30a.svg",
+    "static/media/ideavalidation.svg": "/digify/static/media/ideavalidation.87b54eaaf28725e3bd9758674eb9b828.svg",
+    "static/media/dpsLogo.png": "/digify/static/media/dpsLogo.cc81e8613fdb5b4f50af.png",
+    "static/media/design3.svg": "/digify/static/media/design3.ed21a51bcbd9f075dea4ebc74e6413fa.svg",
+    "static/media/banner.png": "/digify/static/media/banner.fc61330594d16e74c3cd.png",
+    "static/media/web_dev.svg": "/digify/static/media/web_dev.767ff6ecc86c425489ceb910a1a4c51a.svg",
+    "static/media/appdev3.svg": "/digify/static/media/appdev3.329f55021f24e94f27667f7c5fc47551.svg",
+    "static/media/validationImg.svg": "/digify/static/media/validationImg.606d7adb997c82398973f666c1166066.svg",
+    "static/media/ui_ux.svg": "/digify/static/media/ui_ux.f5d44ff8eaad08b7b9a76a4a7e429155.svg",
+    "static/media/app_dev2.svg": "/digify/static/media/app_dev2.30b97895a93cf2b06b8499e35f0ee291.svg",
+    "static/media/app_dev.svg": "/digify/static/media/app_dev.f93cc5c640e9549c9bf68aa794ea1d1a.svg",
+    "static/media/mission3.svg": "/digify/static/media/mission3.d8f7370445b78af33fd08d73a5f4cfa3.svg",
+    "static/media/validation3.svg": "/digify/static/media/validation3.82dfad5b2715c10895638c686a02ff6f.svg",
+    "index.html": "/digify/index.html",
+    "main.be7fadbd.css.map": "/digify/static/css/main.be7fadbd.css.map",
+    "main.52b0c7d1.js.map": "/digify/static/js/main.52b0c7d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be7fadbd.css",
+    "static/js/main.52b0c7d1.js"
+  ]
+}
