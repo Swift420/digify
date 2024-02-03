@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/digify/static/css/main.fe3fc512.css",
-    "main.js": "/digify/static/js/main.3a473d29.js",
+    "main.css": "/digify/static/css/main.c8926acf.css",
+    "main.js": "/digify/static/js/main.d2a1e811.js",
+    "static/media/roadmap4.png": "/digify/static/media/roadmap4.dbb889bdb62b0bf4cd7b.png",
+    "static/media/roadmap5.jpg": "/digify/static/media/roadmap5.8fe966f1f5c27d554541.jpg",
+    "static/media/roadmap6.jpg": "/digify/static/media/roadmap6.8cf431eeccbcf7e5df93.jpg",
+    "static/media/roadmap3.jpg": "/digify/static/media/roadmap3.f70ff63785351dc6c4d2.jpg",
     "static/media/roadmap2.png": "/digify/static/media/roadmap2.15a05eb4b4fb9aab64e8.png",
     "static/media/roadmap.jpg": "/digify/static/media/roadmap.57ed5c30558203396a8f.jpg",
     "static/media/ui_ux_design.svg": "/digify/static/media/ui_ux_design.6ed300b1d73621a6bb4f38735d808250.svg",
@@ -24,11 +28,11 @@
     "static/media/mission3.svg": "/digify/static/media/mission3.d8f7370445b78af33fd08d73a5f4cfa3.svg",
     "static/media/validation3.svg": "/digify/static/media/validation3.82dfad5b2715c10895638c686a02ff6f.svg",
     "index.html": "/digify/index.html",
-    "main.fe3fc512.css.map": "/digify/static/css/main.fe3fc512.css.map",
-    "main.3a473d29.js.map": "/digify/static/js/main.3a473d29.js.map"
+    "main.c8926acf.css.map": "/digify/static/css/main.c8926acf.css.map",
+    "main.d2a1e811.js.map": "/digify/static/js/main.d2a1e811.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe3fc512.css",
-    "static/js/main.3a473d29.js"
+    "static/css/main.c8926acf.css",
+    "static/js/main.d2a1e811.js"
   ]
 }
