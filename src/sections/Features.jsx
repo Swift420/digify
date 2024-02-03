@@ -22,11 +22,11 @@ const Features = () => {
       <div className="flex flex-col lg:flex-row justify-between items-start gap-10">
         
         {/* Featured Cards */}
-        <motion.div
-            variants={fadeIn("down", 0.2)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{once:false, amount:0.7}}
+        <div
+            // variants={fadeIn("down", 0.2)}
+            // initial="hidden"
+            // whileInView="show"
+            // viewport={{once:false, amount:0.7}}
         className="w-full">
           <div className="grid md:grid-cols-5 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8">
             <FeatureCard featureImg={validation3} title={"Idea Validation"} />
@@ -38,7 +38,7 @@ const Features = () => {
             
             
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

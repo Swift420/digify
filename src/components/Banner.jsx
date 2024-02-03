@@ -10,20 +10,20 @@ const Banner = ({bannerImg, heading, subheading, btn1, btn2}) => {
     <div className='flex flex-col md:flex-row-reverse justify-between items-center gap-10'>
         {/* Banner Image */}
 
-    <motion.div
-    variants={fadeIn("down", 0.2)}
-    initial="hidden"
-    whileInView="show"
-    viewport={{once:false, amount:0.7}}
+    <div
+    // variants={fadeIn("down", 0.2)}
+    // initial="hidden"
+    // whileInView="show"
+    // viewport={{once:false, amount:0.7}}
     >
             <img src={bannerImg} className='lg:h-[360px]' />
-        </motion.div>
+        </div>
         {/* Banner content */}
-        <motion.div
-          variants={fadeIn("up", 0.2)}
-          initial="hidden"
-          whileInView="show"
-          viewport={{once:false, amount:0.7}}
+        <div
+          // variants={fadeIn("up", 0.2)}
+          // initial="hidden"
+          // whileInView="show"
+          // viewport={{once:false, amount:0.7}}
         className='md:w-3/5'>
             <h2 className='md:text-7xl text-4xl font-bold text-white mb-6 leading-relaxed'>{heading}</h2>
             <p className='text-[#EBEBEB] text-2xl mb-8'>{subheading}</p>
@@ -42,7 +42,7 @@ const Banner = ({bannerImg, heading, subheading, btn1, btn2}) => {
         text="Book An Appointment"
       />
             </div>
-        </motion.div>
+        </div>
         
     </div>
 </div>

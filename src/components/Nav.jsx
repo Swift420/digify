@@ -1,5 +1,6 @@
 import { navLinks } from "../constants"
 import  dpsLogo  from '../assets/images/dpsLogo.png'
+import  dpsLogo2  from '../assets/images/digify-logo.png'
 import { useState } from "react"
 import { FaBars, FaXmark } from "react-icons/fa6";
 import { Link } from "react-scroll";
@@ -13,39 +14,53 @@ setIsMenuOpen(!isMenuOpen);
     {link: "Home", path: "home"},
     {link: "Services", path: "services"},
     {link: "About", path: "about"},
-    {link: "Contact Us", path: "contact"},
+    {link: "Tech Stack", path: "techstack"},
   ]
   return (
     <>
-     <nav className="bg-white md:px-14 p-4 max-w-screen-2xl  mx-auto text-primary fixed top-0 right-0 left-0">
+    <nav className="bg-white md:px-14 p-4 mx-auto text-primary fixed top-0 right-0 left-0">
+  <div className="container mx-auto">
+    <div className="flex justify-between items-center font-medium">
+      <div className="flex items-center space-x-14">
+        <a className="text-2xl font-semibold flex items-center space-x-3 text-primary">
+          <img src={dpsLogo2} className="w-20 inline-block item-center" />
+        </a>
+      </div>
 
-<div className="text-lg container mx-auto flex justify-between items-center font-medium">
-  <div className="flex items-center space-x-14">
-    <a className="text-2xl font-semibold flex items-center space-x-3 text-primary">
-      <img
-    src={dpsLogo}
-    className="w-20 inline-block item-center"
-    /></a>
+      <div className="flex-grow md:flex items-center justify-center">
+        <ul className="md:flex space-x-12">
+          {navItems.map(({ link, path }) => (
+            <Link
+              activeClass="active"
+              key={link}
+              spy={true}
+              smooth={true}
+              offset={-100}
+              to={path}
+              className="block hover:text-gray-300 cursor-pointer"
+            >
+              {link}
+            </Link>
+          ))}
+        </ul>
+      </div>
 
-    <ul className="md:flex space-x-12 hidden">
-      {
-        navItems.map(({link, path})=> <Link activeClass="active" key={link} spy={true} smooth={true} offset={-100} to={path} className="block hover:text-gray-300 cursor-pointer">{link}</Link>)
-      }
-    </ul>
+      <div className="md:hidden">
+        <button
+          onClick={toggleMenu}
+          className="text-white focus:outline-none focus:text-gray-300"
+        >
+          {isMenuOpen ? (
+            <FaXmark className="w-6 h-6 text-primary" />
+          ) : (
+            <FaBars className="w-6 h-6 text-primary " />
+          )}
+        </button>
+      </div>
+    </div>
   </div>
-  <div className="md:flex items-center hidden">
-  
-  </div>
-
-  <div className="md:hidden">
-      <button onClick={toggleMenu} className="text-white focus:outline-none focus:text-gray-300">
-        {
-          isMenuOpen ? (<FaXmark className="w-6 h-6 text-primary"/>): (<FaBars className="w-6 h-6 text-primary "/>)
-        }
-      </button>
-  </div>
-</div>
 </nav>
+
     
 
     <div className={`space-y-4 px-4 pt-24 pb-5 bg-secondary text-xl ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
