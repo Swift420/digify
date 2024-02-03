@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/digify/static/css/main.c8926acf.css",
-    "main.js": "/digify/static/js/main.d2a1e811.js",
+    "main.js": "/digify/static/js/main.a2c08981.js",
     "static/media/roadmap4.png": "/digify/static/media/roadmap4.dbb889bdb62b0bf4cd7b.png",
+    "static/media/roadmap7.jpg": "/digify/static/media/roadmap7.93540aa5327bbd62ec1a.jpg",
     "static/media/roadmap5.jpg": "/digify/static/media/roadmap5.8fe966f1f5c27d554541.jpg",
     "static/media/roadmap6.jpg": "/digify/static/media/roadmap6.8cf431eeccbcf7e5df93.jpg",
     "static/media/roadmap3.jpg": "/digify/static/media/roadmap3.f70ff63785351dc6c4d2.jpg",
@@ -29,10 +30,10 @@
     "static/media/validation3.svg": "/digify/static/media/validation3.82dfad5b2715c10895638c686a02ff6f.svg",
     "index.html": "/digify/index.html",
     "main.c8926acf.css.map": "/digify/static/css/main.c8926acf.css.map",
-    "main.d2a1e811.js.map": "/digify/static/js/main.d2a1e811.js.map"
+    "main.a2c08981.js.map": "/digify/static/js/main.a2c08981.js.map"
   },
   "entrypoints": [
     "static/css/main.c8926acf.css",
-    "static/js/main.d2a1e811.js"
+    "static/js/main.a2c08981.js"
   ]
 }
