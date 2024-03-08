@@ -15,11 +15,13 @@ nav {
 }
 
 .gradientBg {
-  background: linear-gradient(99deg, #EE9AE5 0%, #5961F9 100%);
+  background:  linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 57%, rgba(2,0,36,1) 90%)
+  /* background:  linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%) */
+
 }
 
 .btnPrimary {
-  @apply py-3 px-8 bg-secondary font-semibold text-white rounded hover:bg-primary transition-all duration-300
+  @apply py-3 px-8 bg-[#0645A0] font-semibold text-white rounded hover:bg-primary transition-all duration-300;
 }
 /* 
 * {

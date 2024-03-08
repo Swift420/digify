@@ -8,7 +8,7 @@ const FeatureModal = ({isVisible, onClose, children,  imageUrl, modalContent, ti
       if(e.target.id === 'wrapper') onClose();
   }
   return (
-    <div  onClick={handleClose} className={`fixed inset-0 flex justify-center items-center bg-black bg-opacity-25 backdrop-blur-sm `}>
+    <div  onClick={handleClose} className={`fixed inset-0 flex justify-center items-center bg-black bg-opacity-25 backdrop-blur-sm z-50`}>
       <div className="absolute pt-10 inset-0 flex justify-center items-center" id='wrapper'>
         <div className=' w-8/12 flex flex-col '>
             {/* <button className='text-white text-xl place-self-end'>X</button> */}

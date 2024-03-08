@@ -27,8 +27,8 @@ setIsMenuOpen(!isMenuOpen);
         </a>
       </div>
 
-      <div className="flex-grow md:flex items-center justify-center">
-        <ul className="md:flex space-x-12">
+      <div className="flex-grow md:flex items-center justify-center hidden ">
+        <ul className="hidden md:flex space-x-12">
           {navItems.map(({ link, path }) => (
             <Link
               activeClass="active"
@@ -63,7 +63,7 @@ setIsMenuOpen(!isMenuOpen);
 
     
 
-    <div className={`space-y-4 px-4 pt-24 pb-5 bg-secondary text-xl ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
+    <div className={`space-y-4 px-4 pt-24 pb-5 bg-[#090979] text-xl ${isMenuOpen ? "block fixed top-0 right-0 left-0 z-50" : "hidden"}`}>
     {
         navItems.map(({link, path})=> <Link activeClass="active" key={link} spy={true} smooth={true} offset={-80} to={path} className="block text-white hover:text-gray-300"onClick={toggleMenu}> {link}</Link>)
       }

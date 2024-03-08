@@ -27,7 +27,7 @@ const Banner = ({bannerImg, heading, subheading, btn1, btn2}) => {
         className='md:w-3/5'>
             <h2 className='md:text-7xl text-4xl font-bold text-white mb-6 leading-relaxed'>{heading}</h2>
             <p className='text-[#EBEBEB] text-2xl mb-8'>{subheading}</p>
-            <div className='space-x-5 space-y-4'>
+            <div className=' space-x-0  lg:space-x-5   space-y-4 '>
                
             <Link  spy={true} smooth={true} offset={-100} to={"services"}>   <button className='btnPrimary'>{btn1}</button></Link>
                 {/* <button className='btnPrimary'>{btn2}</button> */}

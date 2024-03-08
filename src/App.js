@@ -15,6 +15,11 @@ import ui_ux3 from "./assets/images/design3.svg";
 import appDev3 from "./assets/images/appdev3.svg";
 import roadmap from "./assets/images/roadmap.jpg";
 import roadmap2 from "./assets/images/roadmap2.png";
+import roadmap3 from "./assets/images/roadmap3.jpg";
+import roadmap4 from "./assets/images/roadmap4.png";
+import roadmap5 from "./assets/images/roadmap5.jpg";
+import roadmap6 from "./assets/images/roadmap6.jpg";
+import roadmap7 from "./assets/images/roadmap7.jpg";
 import validation3 from "./assets/images/validation3.svg"
 import {motion} from "framer-motion"
 import { fadeIn } from './constants/variants'
@@ -75,7 +80,7 @@ function App() {
     <div className="my-24 md:px-14 px-4  mx-auto" id="services">
     <div className="flex justify-center pb-5">
     <div className="md:text-5xl text-4xl font-bold text-primary mb-5 leading-normal">
-        Our Awesome Services
+        Our Services
         
     </div>
 </div>
@@ -118,18 +123,19 @@ function App() {
       </div>
     </div>
 
-    <AboutLeft aboutImg={vision} heading={"Vision"} subheading={"Prioritize strategic success by validating and ensuring the viability of your concepts before committing valuable resources. Our expert guidance extends to refining your ideas into meticulously crafted, actionable plans, paving the way for sustainable and effective implementation."}/>
-    <AboutRight aboutImg={mission} heading={"Mission"} subheading={"Prioritize strategic success by validating and ensuring the viability of your concepts before committing valuable resources. Our expert guidance extends to refining your ideas into meticulously crafted, actionable plans, paving the way for sustainable and effective implementation."}/>
+    <AboutLeft aboutImg={vision} heading={"Vision"} subheading={"Our vision is to be a leading force in shaping tomorrow's digital landscape. We aspire to be recognized globally for our innovative software solutions that redefine industries and set new benchmarks for excellence."}/>
+    <AboutRight aboutImg={mission} heading={"Mission"} subheading={"Our mission is to empower businesses and individuals through cutting-edge software solutions, fostering innovation, and driving digital transformation to enhance the way the world operates."}/>
    {/* <Calender/> */}
+   
+   
    <TechStackTimeLine/>
-
    <div className='pt-10'>
    <div class="grid min-h-[500px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
    <div className='md:text-5xl text-4xl font-bold text-primary mb-5 leading-normal'>Our Launch Road Map</div>
     
   <img
-    class="object-fit object-center w-full rounded-lg shadow-md shadow-blue-gray-900/50"
-    src={roadmap}
+    class="object-fit object-center w-full rounded-lg shadow-sm shadow-blue-gray-900/50"
+    src={roadmap7}
     alt="nature image"
   />
 </div>

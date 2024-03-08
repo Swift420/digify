@@ -25,11 +25,13 @@ import {
     </div>
 </div>
 
+
 <div className="flex justify-center  " >
         <Typography color="gary" variant="h5" className="font-normal text-gray-600">
         We use the best of techs, tools, and approaches to deliver highly scalable, secure solutions for your business.
             </Typography>
         </div>
+     
 <div className="flex justify-center space-y-5  ">
 <div className="w-1/2 pb-20 pt-14">
       <Timeline>
