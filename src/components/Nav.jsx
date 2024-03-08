@@ -22,7 +22,7 @@ setIsMenuOpen(!isMenuOpen);
   <div className="container mx-auto">
     <div className="flex justify-between items-center font-medium">
       <div className="flex items-center space-x-14">
-        <a className="text-2xl font-semibold flex items-center space-x-3 text-primary">
+        <a href="/" className="text-2xl font-semibold flex items-center space-x-3 text-primary">
           <img src={dpsLogo2} className="w-20 inline-block item-center" />
         </a>
       </div>

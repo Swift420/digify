@@ -1,4 +1,5 @@
 import validation3 from "../assets/images/validation3.svg"
+import aboutImg2 from "../assets/images/undraw_sync_re_492g.svg"
 import {motion} from "framer-motion"
 import { fadeIn } from '../constants/variants'
 const AboutRight = ({aboutImg, heading, subheading}) => {
@@ -12,7 +13,7 @@ const AboutRight = ({aboutImg, heading, subheading}) => {
         // whileInView="show"
         // viewport={{once:false, amount:0.7}}
         className="md:w-1/2">
-            <img src={aboutImg} className=""/>
+            <img src={aboutImg2} className=""/>
         </div>
 
         {/* Content */}
